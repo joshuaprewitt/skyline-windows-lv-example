@@ -97,7 +97,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{A2616B35-9C21-4B60-AC33-45D184D55E4E}</Property>
-				<Property Name="Bld_version.build" Type="Int">10</Property>
+				<Property Name="Bld_version.build" Type="Int">18</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Inverter_Test.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Inverter Test/Inverter_Test.exe</Property>
@@ -126,8 +126,18 @@
 				<Property Name="NIPKG_license" Type="Ref"></Property>
 				<Property Name="NIPKG_releaseNotes" Type="Str"></Property>
 				<Property Name="PKG_actions.Count" Type="Int">0</Property>
+				<Property Name="PKG_actions[0].Arguments" Type="Str"></Property>
+				<Property Name="PKG_actions[0].NIPKG.Child" Type="Str">{76195A18-6D4C-4102-97DC-B7D542D7B408}</Property>
+				<Property Name="PKG_actions[0].NIPKG.Destination" Type="Str">{849A3AD6-10ED-4A92-B050-532B6E8CDA7A}</Property>
+				<Property Name="PKG_actions[0].NIPKG.HideConsole" Type="Bool">false</Property>
+				<Property Name="PKG_actions[0].NIPKG.IgnoreErrors" Type="Bool">true</Property>
+				<Property Name="PKG_actions[0].NIPKG.Schedule" Type="Str">postall</Property>
+				<Property Name="PKG_actions[0].NIPKG.Source" Type="Ref">/My Computer/Build Specifications/Inverter Test</Property>
+				<Property Name="PKG_actions[0].NIPKG.Step" Type="Str">install</Property>
+				<Property Name="PKG_actions[0].NIPKG.Wait" Type="Bool">false</Property>
+				<Property Name="PKG_actions[0].Type" Type="Str">NIPKG.Executable</Property>
 				<Property Name="PKG_autoIncrementBuild" Type="Bool">true</Property>
-				<Property Name="PKG_buildNumber" Type="Int">5</Property>
+				<Property Name="PKG_buildNumber" Type="Int">25</Property>
 				<Property Name="PKG_buildSpecName" Type="Str">My Package</Property>
 				<Property Name="PKG_dependencies.Count" Type="Int">1</Property>
 				<Property Name="PKG_dependencies[0].Enhanced" Type="Bool">false</Property>
@@ -151,18 +161,26 @@
 				<Property Name="PKG_displayVersion" Type="Str"></Property>
 				<Property Name="PKG_homepage" Type="Str"></Property>
 				<Property Name="PKG_maintainer" Type="Str">National Instruments &lt;support@ni.com&gt;</Property>
-				<Property Name="PKG_output" Type="Path">/C/Users/Public/GitHub/skyline-windows-lv-example/packages</Property>
+				<Property Name="PKG_output" Type="Path">../packages</Property>
+				<Property Name="PKG_output.Type" Type="Str">relativeToProject</Property>
 				<Property Name="PKG_packageName" Type="Str">inverter-test</Property>
 				<Property Name="PKG_ProviderVersion" Type="Int">17</Property>
 				<Property Name="PKG_section" Type="Str">Application Software</Property>
-				<Property Name="PKG_shortcuts.Count" Type="Int">1</Property>
+				<Property Name="PKG_shortcuts.Count" Type="Int">2</Property>
 				<Property Name="PKG_shortcuts[0].Destination" Type="Str">root_8</Property>
-				<Property Name="PKG_shortcuts[0].Name" Type="Str">Inverter Test</Property>
+				<Property Name="PKG_shortcuts[0].Name" Type="Str">Inverter_Test</Property>
 				<Property Name="PKG_shortcuts[0].Path" Type="Path">Inverter Test</Property>
 				<Property Name="PKG_shortcuts[0].TargetChild" Type="Str">{76195A18-6D4C-4102-97DC-B7D542D7B408}</Property>
 				<Property Name="PKG_shortcuts[0].TargetDest" Type="Str">{849A3AD6-10ED-4A92-B050-532B6E8CDA7A}</Property>
 				<Property Name="PKG_shortcuts[0].TargetSource" Type="Ref">/My Computer/Build Specifications/Inverter Test</Property>
 				<Property Name="PKG_shortcuts[0].Type" Type="Str">NIPKG</Property>
+				<Property Name="PKG_shortcuts[1].Destination" Type="Str">root_9</Property>
+				<Property Name="PKG_shortcuts[1].Name" Type="Str">Inverter_Test 1</Property>
+				<Property Name="PKG_shortcuts[1].Path" Type="Path">Inverter Test</Property>
+				<Property Name="PKG_shortcuts[1].TargetChild" Type="Str">{76195A18-6D4C-4102-97DC-B7D542D7B408}</Property>
+				<Property Name="PKG_shortcuts[1].TargetDest" Type="Str">{849A3AD6-10ED-4A92-B050-532B6E8CDA7A}</Property>
+				<Property Name="PKG_shortcuts[1].TargetSource" Type="Ref">/My Computer/Build Specifications/Inverter Test</Property>
+				<Property Name="PKG_shortcuts[1].Type" Type="Str">NIPKG</Property>
 				<Property Name="PKG_sources.Count" Type="Int">1</Property>
 				<Property Name="PKG_sources[0].Destination" Type="Str">{849A3AD6-10ED-4A92-B050-532B6E8CDA7A}</Property>
 				<Property Name="PKG_sources[0].ID" Type="Ref">/My Computer/Build Specifications/Inverter Test</Property>
